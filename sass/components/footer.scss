@@ -1,0 +1,119 @@
+.footer-section1 {
+      padding-top: 70px;
+   .container-fluid {
+
+      .row {
+
+         .col-md-4 {
+            padding-right: 10px;
+           
+            
+
+            h2 {
+               font-size: $font-size-lgs;
+               text-transform: uppercase;
+               font-weight: bold;
+            }
+            p {
+               font-size: $font-size-ms;
+               color: $tittle-color;
+               margin-bottom: 25px;
+            }
+            .line {
+               height: 2px;
+               width: 20%;
+               background-color: $hover-background;
+               margin-bottom: 40px;
+            }
+         }
+      }
+   }
+}
+
+.footer-section2 {
+   padding-bottom: 70px;
+     
+   .container-fluid {
+        
+      .row {
+          
+
+         
+             
+            .col-md-4 {
+               padding-left: 40px;
+                 
+               form {
+                  width: 100%;
+
+                  input {
+
+                     background-color: $inp-color;
+                     color: $tittle-color;
+                     padding: 10px 30px;
+                     margin: 20px 0px;
+                  }
+                  .style-mass {
+                     padding-bottom: 200px;
+                  }
+                  .btn {
+                     background-color: $hover-background;
+                     border-color: $hover-background; 
+                     width: 100%;
+                  }
+               }
+            
+            }
+         
+            .col-md-4 {
+               justify-content: flex-end;
+               padding: 0px 0px;
+               margin: 0px;
+               
+               .stl-col12 {
+                   background-color: $bg-section;
+                   padding: 80px 50px;
+                   
+
+                   h2 {
+                      font-size: $font-size-lgm;
+                     text-transform: uppercase;
+                     font-weight: bold;
+                     color: $inp-color;
+                     padding-bottom: 10px;
+                   }
+                   p {
+                     font-size: $font-size-ms;
+                      color: $inp-color;
+                      padding-top: 20px;
+                   }
+               }
+            }
+      }
+   }
+}
+
+.footer-section3 {
+   background-color: $nav-background;
+   
+
+   .container {
+
+      .row {
+
+         .col-md-6 {
+             align-items: center;
+            p {
+               margin-bottom: 0px;
+               color: $inp-color;
+               font-size: $font-size-ms;
+               padding: 40px 0px;
+            }
+
+            img {
+         padding-top: 30px;
+            }
+         }
+      }
+   }
+}
